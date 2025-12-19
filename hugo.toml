@@ -1,8 +1,11 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://lilyssleepyy.github.io/lilyobrien/"
+relativeURLs = true
+canonifyURLs = true
+languageCode = "en-us"
+title = "Lily O'Brien"
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+

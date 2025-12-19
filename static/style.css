@@ -8,7 +8,9 @@ body {
     margin-bottom: 0.2rem;
 
 }
-
+html {
+    scroll-padding-top: 180px;
+  }
 img {
     width: 140px;
     height: 140px;
@@ -64,8 +66,8 @@ p { /*paragraph */
 }
 
 h2 {
-    margin-top: 0em;
-    margin-bottom: 0.83em;
+    margin-top: 0.2rem;
+    margin-bottom: 0.83rem;
   }
 
 .section-title {
@@ -88,11 +90,13 @@ h2 {
 
 .tabs {
     position: sticky;
-    top: 170px;
+    top: 160px;
     font-size: 0.9rem;
     align-self: start;   
   }
-
+  :target {
+    scroll-margin-top: 20px;
+  }
 .tabs nav {
     display: flex;
     flex-direction: column;
