@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <img src="/images/lilyphoto.jpg" class="profile-pic"/>
+
+      <div class="header-text">
+        <h1 class="page-title">
+            <a href="{{ "/" | relURL }}" class="page-title">
+              {{ .Title }}
+            </a>
+          </h1>
+
+        <div class="link-row">
+
+            <a href="mailto:lily06@stanford.edu"
+               class="email-link">
+              lily06@stanford.edu
+            </a>
+          
+            <div class="icon-row">
+              <a href="https://www.linkedin.com/in/lily-obrien123"
+                 target="_blank"
+                 aria-label="LinkedIn"
+                 class="icon-link">
+                <!-- LinkedIn SVG -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M4.98 3.5c0 1.38-1.11 2.5-2.48 2.5S0 4.88 0 3.5
+                  1.11 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8h4.56v15H.22V8zM8.98
+                  8h4.37v2.05h.06c.61-1.16 2.1-2.38 4.32-2.38
+                  4.62 0 5.47 3.04 5.47 6.99V23h-4.56v-7.99
+                  c0-1.9-.03-4.35-2.65-4.35-2.65 0-3.05 2.07-3.05
+                  4.21V23H8.98V8z"/>
+                </svg>
+              </a>
+              <span> : </span>
+          
+              <a href="https://github.com/Lilyssleepyy"
+                 target="_blank"
+                 aria-label="GitHub"
+                 class="icon-link">
+                <!-- GitHub cat -->
+                <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M8 0C3.58 0 0 3.58 0 8
+                  c0 3.54 2.29 6.53 5.47 7.59
+                  .4.07.55-.17.55-.38
+                  0-.19-.01-.82-.01-1.49
+                  -2.01.37-2.53-.49-2.69-.94
+                  -.09-.23-.48-.94-.82-1.13
+                  -.28-.15-.68-.52-.01-.53
+                  .63-.01 1.08.58 1.23.82
+                  .72 1.21 1.87.87 2.33.66
+                  .07-.52.28-.87.51-1.07
+                  -1.78-.2-3.64-.89-3.64-3.95
+                  0-.87.31-1.59.82-2.15
+                  -.08-.2-.36-1.02.08-2.12
+                  0 0 .67-.21 2.2.82
+                  .64-.18 1.32-.27 2-.27
+                  .68 0 1.36.09 2 .27
+                  1.53-1.04 2.2-.82 2.2-.82
+                  .44 1.1.16 1.92.08 2.12
+                  .51.56.82 1.27.82 2.15
+                  0 3.07-1.87 3.75-3.65 3.95
+                  .29.25.54.73.54 1.48
+                  0 1.07-.01 1.93-.01 2.2
+                  0 .21.15.46.55.38
+                  A8.013 8.013 0 0 0 16 8
+                  c0-4.42-3.58-8-8-8z"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="floating-cat">
+                <img src="/images/cute-kitty.jpg" alt="cat mascot (hehe)" />
+              </div>
+          
+          </div>  
+
+        <p class="subtitle">
+          <b>CS Student @ Stanford University (Human Computer Interaction track)</b>
+        </p>
+      </div>
+    </header>
+
+    {{ $parts := split .RawContent "\n---\n" }}
+
+    <div class="layout">
+      <aside class="tabs">
+        <nav>
+          <a href="#research">Research</a>
+          <a href="#whatsnext">What's Next</a>
+          <a href="#prevexp">Previous Experiences</a>
+          <a href="#awards">Awards</a>
+          <a href="#certifications">Certifications</a>
+        </nav>
+      </aside>
+
+      <div class="main">
+        <div class="intro">
+          {{ index $parts 0 | markdownify }}
+        </div>
+
+        <section class="content">
+          {{ index $parts 1 | markdownify }}
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
