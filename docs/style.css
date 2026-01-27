@@ -8,6 +8,12 @@ body {
     margin-bottom: 0.2rem;
 
 }
+.profile-pic {
+  width: 155px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
 html {
     scroll-padding-top: 180px;
   }
@@ -213,7 +219,7 @@ h2 {
 
 .floating-cat {
     position: absolute;
-    top: 109.2px;    
+    top: 119.2px;    
     right: 8px;    
     z-index: 200; 
 }
