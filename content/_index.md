@@ -13,32 +13,12 @@ Under professor <a class="links" href="https://www.landay.org/" target="_blank" 
 
 My work primarily focuses on designing and validating priors for biomarkers and pulse-shape parameters (e.g., heart-rate dynamics and waveform shape) so the model remains stable under motion noise, irregular rhythms, and low signal quality. I also evaluate model fit and failure cases using goodness-of-fit testing and posterior predictive checks, helping guide improvements in an upcoming publication.
 
-*Please feel free to take a look at my poster about this research, which I completed very early on for the Stanford Summer Fellows Program, a research program that supports Stanford undergraduates in their on-campus, summer research.*
-
-<!-- <img src="/files/ssfp-poster.png"
-     alt="Poster: Bayesian Pulse Deconvolution"
-     style="width:100%; max-width:900px; height:auto; display:square; margin:1.5rem auto; border-radius:12px;" /> -->
-<a href="/files/ssfp-poster.pdf" target="_blank" rel="noopener noreferrer"
-   style="text-decoration:none;">
-  <img src="/files/ssfp-poster.png"
-       alt="Poster: Bayesian Pulse Deconvolution"
-       style="display:block; width:90%; max-width:850px; height:auto; margin:1.5rem auto;
-            border-radius:0; background:transparent; padding:0; box-shadow:none;" />
-</a>
-<!-- link link -->
-<p style="text-align:center; font-size:0.95rem; margin-top:-0.8rem;">
-  <a class="links" href="/files/ssfp-poster.pdf" target="_blank" rel="noopener noreferrer">
-    Open full poster (PDF)
-  </a>
-</p>
-
-{{< poster "/files/ssfp-poster.pdf" >}}
-Poster!
+{{< poster "https://www.biorxiv.org/content/10.64898/2026.02.09.699383v1" >}}
+Pre-Print
 {{< /poster >}}
 
-{{< poster "https://www.linkedin.com/feed/update/urn:li:activity:7363690241955655681/" >}}
-More info!
-{{< /poster >}}
+
+
 <!-- 
 ## What's Next! {#whatsnext .section-title}
 
@@ -51,9 +31,24 @@ Participating in Stanford's Bing Overseas Study Program <a class="links" href="h
 
 I was selected for the 2025 Stanford Summer Fellows Program cohort, an 8-week cohort experience combining research and academic coursework. During the program, I conducted full-time research while also completing a 3-unit Stanford Social Sciences course. This fellowship is where I began my work in Bayesian cardiovascular sensing under the mentorship of PhD student Parker Ruth.
 
-<span class="subheading"> Stanford School of Medicine (Pediatric Oncology/Hematology)</span>
+*Please feel free to take a look at my poster about this research, which I completed very early on for the Stanford Summer Fellows Program, a research program that supports Stanford undergraduates in their on-campus, summer research.*
+
+{{< poster "/files/ssfp-poster.pdf" >}}
+Poster!
+{{< /poster >}}
+
+{{< poster "https://www.linkedin.com/feed/update/urn:li:activity:7363690241955655681/" >}}
+More info!
+{{< /poster >}}
+
+<span class="subheading"> Stanford School of Medicine Research (Pediatric Oncology/Hematology)</span>
 
 I worked as a Clinical Data Associate in Stanford’s Pediatric Oncology/Hematology (School of Medicine) research group, supporting multi-site (Canada, USA) clinical studies in adolescent blood cancers, such as leukemia. My responsibilities included verifying protocol compliance, resolving missing or inconsistent entries, and maintaining clean, analysis-ready datasets. I tracked patient vitals, labs, and symptom reports to support study monitoring and contribute to analyses of clinical outcomes in adolescents receiving investigational therapy from our research group.
+
+<span class="subheading"> Stanford Summer Engineering Academy (SSEA) </span>
+
+A pre-freshman-year program that exposes incoming Stanford freshmen to various introdoctory math and computer science classes while building connections with Stanford peers and faculty. During this time, I also explored various engineering disciplines and attended lectures from professors in their respective engineering and medical departments. 
+
 
 <span class="subheading"> Silicon Valley x Keio International Exchange Program (SKIP) </span>
 
@@ -69,20 +64,23 @@ More info!
 I built an interactive (React Native) mobile app to map park landmarks and enhance visitor engagement in St. Louis, Missouri. I also performed geospatial and revenue data analyses for 50+ local businesses, providing insights for strategic planning, and created ArcGIS story maps visualizing demographic trends and business viability for stakeholders.
 
 ## Awards {#awards .section-title}
-<span class="subheading"> QuestBridge National College Match (2024) </span>
+<span class="subheading"> QuestBridge National College Match </span>
 Awarded a full-ride scholarship to Stanford University
 
-<span class="subheading"> PEO STAR Scholarship (2024) </span>
+<span class = "subheading"> International Baccalaureate Diploma Recipient </span>
+Earned the International Baccalaureate (IB) Diploma, demonstrating academic rigor and a global perspective
+
+<span class="subheading"> PEO STAR Scholarship  </span>
 $2,500 scholarship for women with strong academic merit who are graduating high school and plan to attend college
 
 
-<span class="subheading"> All-State Athletic Honor Roll (2022-2024) </span>
+<span class="subheading"> All-State Athletic Honor Roll  </span>
 Recognized for playing a varsity sport (golf/basketball) and maintaining over a 3.5 GPA as a high-school student
 
 ## Certifications {#certifications .section-title}
 
 ### ArcGIS Technician 1 
-Earned certification demonstrating proficiency in ArcGIS software (GIS mapping, spatial analysis, and data visualization). (2022)
+Earned certification demonstrating proficiency in ArcGIS software (GIS mapping, spatial analysis, and data visualization)
 
 ### USGIF Systems 
 Certified in geospatial systems fundamentals and workflows.(second youngest person to attain this certification in the US as of 2023)
