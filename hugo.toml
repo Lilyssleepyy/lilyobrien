@@ -1,6 +1,7 @@
 baseURL = "https://lilyssleepyy.github.io/lilyobrien/"
 relativeURLs = true
 canonifyURLs = true
+publishDir = "docs"
 languageCode = "en-us"
 title = "Lily O'Brien"
 
