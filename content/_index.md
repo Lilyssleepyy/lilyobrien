@@ -3,7 +3,9 @@ title: Lily O'Brien
 ---
 
 ## About Me {#aboutme}
-Hi, welcome to my page! I'm a sophomore at Stanford interested in the intersectionality of technology and health, and hope to spend lots of time delving into this topic to create more accessible technology on a global-level. On a personal note, I am also interested in literature and learning languages, so please feel free to reach out to me about these things, as well! 
+Hello, welcome! I'm a Lily, a junior at Stanford University interested in the intersectionality of technology and medicine, and am passionate about accessible technology and user-experience.
+
+(On a personal note, I am also interested in literature and learning languages, so please feel free to reach out to me about these things, as well!) 
 
 
 ## Research  {#research .section-title}
@@ -11,10 +13,12 @@ Hi, welcome to my page! I'm a sophomore at Stanford interested in the intersecti
 
 Under professor <a class="links" href="https://www.landay.org/" target="_blank" rel="noopener noreferrer">James Landay</a> and mentored by Stanford PhD student <a class="links" href="https://parkersruth.com/" target="_blank" rel ="noopener noreferrer"> Parker Ruth</a>, I work on a Bayesian pulse deconvolution model for cardiovascular sensing. We model observed waveforms (e.g., PPG, ECG) as the convolution of a latent “pulse shape” with beat timing, and use probabilistic inference to recover physiologically meaningful parameters from noisy real-world signals.
 
-My work primarily focuses on designing and validating priors for biomarkers and pulse-shape parameters (e.g., heart-rate dynamics and waveform shape) so the model remains stable under motion noise, irregular rhythms, and low signal quality. I also evaluate model fit and failure cases using goodness-of-fit testing and posterior predictive checks, helping guide improvements in an upcoming publication.
+My work primarily focuses on designing and validating priors for biomarkers and pulse-shape parameters (e.g., heart-rate dynamics and waveform shape) so the model remains stable under motion noise, irregular rhythms, and low signal quality. I also evaluate model fit and failure cases using goodness-of-fit testing and posterior predictive checks, helping guide improvements for our algorithm. 
 
-{{< poster "https://www.biorxiv.org/content/10.64898/2026.02.09.699383v1" >}}
-Pre-Print
+As of September 10, 2026, our research regarding this work has been published to Nature's npj Digital Medicine journal! (my very first publication!!)
+
+{{< poster "https://doi.org/10.1038/s41746-026-03213-0" >}}
+Publication
 {{< /poster >}}
 
 
@@ -26,6 +30,12 @@ Participating in Stanford's Bing Overseas Study Program <a class="links" href="h
 
 
 ## Previous Experiences {#prevexp .section-title}
+<span class = "subheading"> ARCS Inc. </span>
+As a continuation of the Stanford in Kyoto (BOSP) Program, I interned at an ARCS Inc., an AI startup based in Tokyo, Japan, for 10 weeks. During my internship, I worked on fine-tuning Meta's SAM3 foundational model and temporal memory bank to propagate multi-instance masks across microscopic videos with dynamic cell densities and velocities. Collaborating with a team of engineers and biologists, where I focused on automating computer vision workflows to advance IVF technology and IVF-related robotics.
+
+{{< poster "https://www.linkedin.com/feed/update/urn:li:activity:7500604003647574016/">}}
+More info
+{{</poster >}}
 
 <span class ="subheading"> Stanford Summer Fellows Program </span>
 
@@ -34,11 +44,11 @@ I was selected for the 2025 Stanford Summer Fellows Program cohort, an 8-week co
 *Please feel free to take a look at my poster about this research, which I completed very early on for the Stanford Summer Fellows Program, a research program that supports Stanford undergraduates in their on-campus, summer research.*
 
 {{< poster "/files/ssfp-poster.pdf" >}}
-Poster!
+Poster
 {{< /poster >}}
 
 {{< poster "https://www.linkedin.com/feed/update/urn:li:activity:7363690241955655681/" >}}
-More info!
+More info
 {{< /poster >}}
 
 <span class="subheading"> Stanford School of Medicine Research (Pediatric Oncology/Hematology)</span>
@@ -55,7 +65,7 @@ A pre-freshman-year program that exposes incoming Stanford freshmen to various i
 I was selected to participate in the century-long tradition, SKIP, a 15-day immersive exchange program with Keio University in Tokyo. The program combined cultural coursework (e.g., disaster preparedness/防災, social norms, and modern Japanese history) with site visits and professional networking across industry and government, including SoftBank/LINE, Sanrio, Shibuya civic offices, Studio Ghibli, and organizations involved in Fukushima recovery and rebuilding.
 
 {{< poster "https://www.linkedin.com/feed/update/urn:li:activity:7407479979736797185/" >}}
-More info!
+More info
 {{< /poster >}}
 
 <span class="subheading"> Laumier Park App-Building </span>

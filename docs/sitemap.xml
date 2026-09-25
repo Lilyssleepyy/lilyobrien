@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lilyssleepyy.github.io/lilyobrien/categories/</loc>
+    <loc>http://localhost:1313/lilyobrien/categories/</loc>
   </url><url>
-    <loc>https://lilyssleepyy.github.io/lilyobrien/</loc>
+    <loc>http://localhost:1313/lilyobrien/</loc>
   </url><url>
-    <loc>https://lilyssleepyy.github.io/lilyobrien/tags/</loc>
+    <loc>http://localhost:1313/lilyobrien/tags/</loc>
   </url>
 </urlset>
